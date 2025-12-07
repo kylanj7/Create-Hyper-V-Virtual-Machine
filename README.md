@@ -16,13 +16,13 @@ A modular PowerShell script for creating and configuring Windows 11 virtual mach
 Create-Hyper-V-Virtual-Machine/
 ├── Create-Windows11VM.ps1      # Main script entry point
 ├── Modules/
-├── VMConfiguration.ps1     # Core VM creation and prerequisites
-├── VMStorage.ps1          # VHD creation and attachment
-├── VMHardware.ps1         # CPU and memory configuration
-├── VMSecurity.ps1         # TPM, Secure Boot, Key Protector
-├── VMDVDDrive.ps1         # ISO mounting and boot configuration
-├── VMManagement.ps1       # VM operations (start, stop, connect)
-└── README.md                  # This file
+├── VMConfiguration.ps1         # Core VM creation and prerequisites
+├── VMStorage.ps1               # VHD creation and attachment
+├── VMHardware.ps1              # CPU and memory configuration
+├── VMSecurity.ps1              # TPM, Secure Boot, Key Protector
+├── VMDVDDrive.ps1              # ISO mounting and boot configuration
+├── VMManagement.ps1            # VM operations (start, stop, connect)
+└── README.md                   # This file
 ```
 
 ## Usage
