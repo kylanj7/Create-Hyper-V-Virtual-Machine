@@ -13,7 +13,7 @@ A modular PowerShell script for creating and configuring Windows 11 virtual mach
 ## Project Structure
 
 ```
-hyperv-vm-creator/
+Create-Hyper-V-Virtual-Machine/
 ├── Create-Windows11VM.ps1      # Main script entry point
 ├── Modules/
 ├── VMConfiguration.ps1     # Core VM creation and prerequisites
