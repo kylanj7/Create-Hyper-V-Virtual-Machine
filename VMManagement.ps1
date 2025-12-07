@@ -64,13 +64,6 @@ function Show-VMSummary {
     Write-Host "`nSecurity Features:" -ForegroundColor Yellow
     Write-Host "  Secure Boot: $($firmware.SecureBoot)" -ForegroundColor White
     
-    $tpm = Get-VMTPM -VMName $VMName -ErrorAction SilentlyContinue
-    if ($tpm) {
-        Write-Host "  TPM: Enabled" -ForegroundColor White
-    } else {
-        Write-Host "  TPM: Disabled" -ForegroundColor White
-    }
-    
     Write-Host "`n=================================" -ForegroundColor Cyan
 }
 
